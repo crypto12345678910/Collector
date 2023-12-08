@@ -1,0 +1,34 @@
+{
+  "name": "collector_final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "solidity"
+  ],
+  "author": "AZCB",
+  "license": "MIT",
+  "dependencies": {
+    "@chainlink/contracts": "^0.6.1",
+    "@openzeppelin/contracts": "^4.9.3",
+    "@truffle/hdwallet-provider": "^2.1.13",
+    "chai": "^4.3.7",
+    "dotenv": "^16.0.3",
+    "mocha": "^10.2.0",
+    "web3": "^1.8.1"
+  },
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.16",
+    "eth-gas-reporter": "^0.2.25",
+    "ganache-cli": "^6.12.2",
+    "solidity-coverage": "^0.7.16",
+    "truffle-contract-size": "^2.0.1",
+    "truffle-plugin-verify": "^0.6.4"
+  }
+}
